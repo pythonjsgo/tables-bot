@@ -1,0 +1,39 @@
+{
+  "name": "tables-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint . --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/menu": "^1.1.1",
+    "@grammyjs/router": "^2.0.0",
+    "@grammyjs/runner": "^1.0.3",
+    "@types/node": "^17.0.36",
+    "@types/randomstring": "^1.1.8",
+    "grammy": "^1.8.3",
+    "grammy-inline-menu": "^7.0.2",
+    "jimp": "^0.16.1",
+    "mongodb": "^4.6.0",
+    "randomstring": "^1.2.2",
+    "ts-node": "10",
+    "typescript": "4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-autofix": "^1.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "standard": "^17.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+import { getUserData } from '../db-manager.js';
+export default async (ctx, next) => {
+    const userID = ctx.from.id;
+    const userData = await getUserData(userID);
+    if (userData?.admin)
+        return next();
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibXVzdEJlQWRtaW4uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvbWlkZGxld2FyZXMvbXVzdEJlQWRtaW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsT0FBTyxFQUFFLFdBQVcsRUFBRSxNQUFNLGtCQUFrQixDQUFBO0FBRTlDLGVBQWUsS0FBSyxFQUFFLEdBQVEsRUFBRSxJQUFrQixFQUFFLEVBQUU7SUFDbEQsTUFBTSxNQUFNLEdBQVcsR0FBRyxDQUFDLElBQUksQ0FBQyxFQUFFLENBQUE7SUFDbEMsTUFBTSxRQUFRLEdBQUcsTUFBTSxXQUFXLENBQUMsTUFBTSxDQUFDLENBQUE7SUFDMUMsSUFBSSxRQUFRLEVBQUUsS0FBSztRQUFFLE9BQU8sSUFBSSxFQUFFLENBQUE7QUFDdEMsQ0FBQyxDQUFBIn0=

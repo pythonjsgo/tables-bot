@@ -1,0 +1,5 @@
+import { bot } from '@';
+function newPartnerOnTable(destUserID, tableTitle, newUserData) {
+    bot.api.sendMessage(destUserID, `<b>На ваш ${tableTitle}</b> зашел новый партнер ${newUserData.name} ${newUserData.username}`);
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibm90aWZpY2F0aW9ucy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9ub3RpZmljYXRpb25zLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxHQUFHLEVBQUUsTUFBTSxHQUFHLENBQUE7QUFFdkIsU0FBUyxpQkFBaUIsQ0FBRSxVQUFrQixFQUFFLFVBQWtCLEVBQUUsV0FBOEM7SUFDOUcsR0FBRyxDQUFDLEdBQUcsQ0FBQyxXQUFXLENBQ2YsVUFBVSxFQUNWLGFBQWEsVUFBVSw0QkFBNEIsV0FBVyxDQUFDLElBQUksSUFBSSxXQUFXLENBQUMsUUFBUSxFQUFFLENBQ2hHLENBQUE7QUFDTCxDQUFDIn0=

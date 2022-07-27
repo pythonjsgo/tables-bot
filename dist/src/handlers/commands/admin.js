@@ -1,0 +1,4 @@
+export default async (ctx, next) => {
+    const userID = ctx.from.id;
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWRtaW4uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9zcmMvaGFuZGxlcnMvY29tbWFuZHMvYWRtaW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0EsZUFBZSxLQUFLLEVBQUUsR0FBUSxFQUFFLElBQWtCLEVBQUUsRUFBRTtJQUNsRCxNQUFNLE1BQU0sR0FBVyxHQUFHLENBQUMsSUFBSSxDQUFDLEVBQUUsQ0FBQTtBQUN0QyxDQUFDLENBQUEifQ==

@@ -1,0 +1,4 @@
+export default async (ctx) => {
+    ctx.answerCallbackQuery({ text: '❌Стол закрыт' });
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibG9ja2VkLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vc3JjL2hhbmRsZXJzL3F1ZXJpZXMvbG9ja2VkLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdBLGVBQWUsS0FBSyxFQUFFLEdBQVEsRUFBRSxFQUFFO0lBQzlCLEdBQUcsQ0FBQyxtQkFBbUIsQ0FBQyxFQUFFLElBQUksRUFBRSxjQUFjLEVBQUUsQ0FBQyxDQUFBO0FBQ3JELENBQUMsQ0FBQSJ9
